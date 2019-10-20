@@ -31,5 +31,10 @@ $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
 });
 
 $(document).ready(function() {
-  $("#lightgallery").lightGallery(); 
+  $("#lightgallery").lightGallery({
+    thumbnail:true,
+    animateThumb: false,
+    showThumbByDefault: false,
+    subHtmlSelectorRelative: true
+  }); 
 });
