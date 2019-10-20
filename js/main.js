@@ -3,6 +3,7 @@ $(window).ready(function() {
 	$("#preloader").fadeOut(500);
 })
 
+// COLLAPSE
 $('.navbar-collapse a').click(function () {
   $(".navbar-collapse").collapse('hide');
 });
@@ -30,6 +31,7 @@ $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
   }
 });
 
+// GALLERY
 $(document).ready(function() {
   $("#lightgallery").lightGallery({
     thumbnail:true,
