@@ -1,7 +1,11 @@
 // PRELOADER
 $(window).ready(function() {
-	$("#preloader").fadeOut(500);
+  $("#preloader").fadeOut(500);
 })
+
+particlesJS.load('particles-js', '../particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
 // COLLAPSE
 $('.navbar-collapse a').click(function () {
@@ -39,4 +43,14 @@ $(document).ready(function() {
     showThumbByDefault: false,
     subHtmlSelectorRelative: true
   }); 
+});
+
+function getRandomFloat() {
+  return Math.random() * (30 + 30) - 30;
+}
+
+$(document).ready(function() {
+  $(".polaroid").each(function(index, elem) {
+    $(elem).css("transform", `rotate(${getRandomFloat()}deg)`);
+  });
 });
