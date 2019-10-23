@@ -3,6 +3,10 @@ $(window).ready(function() {
   $("#preloader").fadeOut(500);
 });
 
+$(".arrow").click(function() {
+  $("#link_invitation").click();
+});
+
 // PARTICLESJS
 particlesJS("particles-js", {
   particles: {
