@@ -76,6 +76,19 @@ a {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.invitation-link {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: #5C1819;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.invitation-link:hover {
+  color: #5C1819;
+  text-decoration: underline !important;
+}
+
 .thanks-title {
   text-align: center;
   font-family: 'Tangerine', cursive;
