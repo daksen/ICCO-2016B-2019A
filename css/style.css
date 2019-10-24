@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 html,
@@ -47,6 +47,7 @@ h4 {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #5C1819;
+  font-weight: 400;
 }
 
 a {
@@ -104,6 +105,11 @@ a {
   font-weight: 400;
   line-height: 105%;
   color: #000000;
+}
+
+.godfather-text {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Sections */
@@ -350,4 +356,14 @@ a {
   padding-top: 1rem;
   font-family: 'Dancing Script', cursive;
   font-size: 1.2rem;
+}
+
+/* Polaroid */
+.polaroid-margin {
+  width: 250px;
+  text-align:center;
+  display:inline-block;
+  border:solid 1rem #ffffff;
+  background:#ffffff;
+  box-shadow:0 0 10px 0px rgba(50, 50, 50, 0.25);
 }
