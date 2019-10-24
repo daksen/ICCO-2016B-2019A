@@ -1,6 +1,7 @@
 // PRELOADER
 $(window).ready(function() {
   $("#preloader").fadeOut(500);
+  new WOW().init();
 });
 
 $(".arrow").click(function() {
